@@ -1,19 +1,19 @@
-# @inyourtime/configs
+# @inyourtime/shared-configs
 
-Shared configuration files for In Your Time projects.
+Shared configuration files for my projects.
 
 ## Usage
 
 Install the package with Biome:
 
 ```sh
-npm install --save-dev @inyourtime/configs @biomejs/biome
+npm install --save-dev @inyourtime/shared-configs @biomejs/biome
 ```
 
 Extend the shared Biome config from your project:
 
 ```json
 {
-  "extends": ["@inyourtime/configs/biome"]
+  "extends": ["@inyourtime/shared-configs/biome"]
 }
 ```
