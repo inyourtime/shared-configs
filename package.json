@@ -1,0 +1,26 @@
+{
+  "name": "@inyourtime/configs",
+  "version": "0.0.0",
+  "description": "Shared configuration files for In Your Time projects.",
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json",
+    "./biome.json": "./biome.json"
+  },
+  "files": [
+    "biome.json"
+  ],
+  "keywords": [
+    "biome",
+    "config",
+    "shared-config"
+  ],
+  "author": "Sahachai (https://github.com/inyourtime)",
+  "license": "MIT",
+  "peerDependencies": {
+    "@biomejs/biome": ">=2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
