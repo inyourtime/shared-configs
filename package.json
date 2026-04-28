@@ -1,6 +1,6 @@
 {
   "name": "@inyourtime/shared-configs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared configuration files for my projects.",
   "type": "module",
   "scripts": {
