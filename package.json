@@ -8,14 +8,19 @@
   },
   "exports": {
     "./biome": "./biome.json",
-    "./biome.json": "./biome.json"
+    "./biome.json": "./biome.json",
+    "./.release-it.json": "./.release-it.json",
+    "./release-it": "./.release-it.json",
+    "./release-it.json": "./.release-it.json"
   },
   "files": [
+    ".release-it.json",
     "biome.json"
   ],
   "keywords": [
     "biome",
     "config",
+    "release-it",
     "shared-config"
   ],
   "author": "Sahachai (https://github.com/inyourtime)",
