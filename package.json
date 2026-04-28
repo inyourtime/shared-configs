@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Shared configuration files for my projects.",
   "type": "module",
+  "scripts": {
+    "test": "biome ci --config-path=biome.json biome.json"
+  },
   "exports": {
     "./biome": "./biome.json",
     "./biome.json": "./biome.json"
@@ -22,5 +25,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.13"
   }
 }
